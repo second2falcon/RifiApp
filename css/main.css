@@ -1,0 +1,62 @@
+* {
+  font-family: "Jost", sans-serif !important;
+}
+
+h1 {
+  font-size: 72px;
+  background: linear-gradient(
+      217deg,
+      rgb(253, 30, 49),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(336deg, rgb(12, 166, 255), rgb(255, 0, 242) 70.71%);
+  /* background: -webkit-linear-gradient(rgb(100, 4, 255), rgb(11, 206, 255), angle); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 1000;
+}
+body {
+  background: #f2f7fe !important;
+}
+
+/*
+.sqs-block-button-element--small,
+.sqs-block-button-element {
+  background: linear-gradient(rgb(12, 166, 255), rgb(85, 193, 255));
+  border: 2px solid #28a9ff !important;
+  box-shadow: 0 0 10px #4fb9ffc9;
+}
+
+.watch_demo_yt {
+  background: linear-gradient(rgb(255, 12, 12), rgb(255, 77, 101));
+  border: 2px solid rgb(255, 50, 50) !important;
+  box-shadow: 0 0 10px rgb(255, 12, 12);
+}
+.macos_download_button {
+  background: linear-gradient(rgb(44, 44, 44), rgb(70, 70, 70));
+  border: 2px solid rgb(46, 46, 46) !important;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+} */
+
+.logo {
+  position: absolute;
+  letter-spacing: 3px;
+  padding: 5px;
+}
+
+.padding {
+  padding: 5vw;
+  border: 2px solid rgb(13, 89, 255);
+}
+
+.hero_image {
+  background: url("/assets/main-bg.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
