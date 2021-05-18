@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/site.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,400;1,700"
+    />
+
+    <title>RiFi - Gestures</title>
+  </head>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    html,
+    body,
+    div,
+    img {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+    body {
+      line-height: 1;
+      background: rgb(230, 242, 255);
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 5px;
+      justify-content: space-evenly;
+    }
+    .item {
+      margin-bottom: 50px;
+      width: 45%;
+      /* padding: 5px; */
+      /* box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.384); */
+      border-radius: 5px;
+      box-shadow: 15px 15px 55px #c100d275, -15px -15px 50px #ff78ed62;
+    }
+
+    .text {
+      text-align: center;
+      padding: 20px;
+      margin-bottom: 50px;
+    }
+
+    h1 {
+      font-size: 96px;
+      background: linear-gradient(45deg, rgb(213, 1, 255), rgb(255, 4, 46));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 1000;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      background: linear-gradient(45deg, rgb(188, 86, 255), rgb(0, 140, 255));
+      background: -webkit-linear-gradient(
+        rgb(188, 86, 255),
+        rgb(0, 140, 255),
+        45deg
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 1000;
+    }
+
+    @media screen and (max-width: 1000px) {
+      h1 {
+        font-size: 64px;
+      }
+      .item {
+        /* float: none; */
+        padding: 0;
+        margin: 0px;
+        margin-bottom: 25px;
+        width: 48%;
+        box-shadow: 0px 2px 5px #c100d241, 0px 0px 5px #ff16e062;
+        border-radius: 0;
+      }
+      .container {
+        padding: 0;
+      }
+    }
+
+    @media screen and (max-width: 720px) {
+      h1 {
+        font-size: 32px;
+      }
+      .item {
+        /* float: none; */
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        box-shadow: 0px 2px 2px #c100d275, 0px 0px 25px #ff16e062;
+        border-radius: 0;
+      }
+      .container {
+        padding: 0;
+      }
+    }
+  </style>
+
+  <body>
+    <div class="text">
+      <h1>How to use Vision <br />Control</h1>
+    </div>
+
+    <div class="container">
+      <img class="item" src="assets/how-to/playpause.png" />
+      <img class="item" src="assets/how-to/volup.png" />
+      <img class="item" src="assets/how-to/voldown.png" />
+      <img class="item" src="assets/how-to/mute.png" />
+      <img class="item" src="assets/how-to/next.png" />
+    </div>
+  </body>
+</html>
